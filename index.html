@@ -7,16 +7,95 @@
   <meta name="Generator" content="Cocoa HTML Writer">
   <meta name="CocoaVersion" content="1894">
   <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 20.0px; font: 17.0px Times; color: #e5e75c; -webkit-text-stroke: #e5e75c}
-    span.s1 {font-kerning: none}
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.3px; font: 13.0px Monaco; color: #fc6208; -webkit-text-stroke: #fc6208; background-color: #f2f2f2}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.3px; font: 13.0px Monaco; color: #000000; -webkit-text-stroke: #000000; background-color: #f2f2f2}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.3px; font: 13.0px Monaco; color: #262626; -webkit-text-stroke: #262626; background-color: #f2f2f2}
+    span.s1 {font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
+    span.s2 {font-kerning: none}
+    span.s3 {font-kerning: none; color: #262626; -webkit-text-stroke: 0px #262626}
   </style>
 </head>
 <body>
-<p class="p1"><span class="s1">&lt;html&gt;</span></p>
-<p class="p1"><span class="s1">&lt;body&gt;</span></p>
-<p class="p1"><span class="s1">&lt;h1&gt;Hello World&lt;/h1&gt;</span></p>
-<p class="p1"><span class="s1">&lt;p&gt;I'm hosted with GitHub Pages.&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
+<p class="p1"><span class="s1">&lt;</span><span class="s2">style</span><span class="s1">&gt;</span></p>
+<p class="p2"><span class="s2">body {</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">background-color: #1B6CB2;</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">margin: 0;</span></p>
+<p class="p2"><span class="s2">}</span></p>
+<p class="p2"><span class="s2">.container {</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">position: absolute;</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">width: 600px;</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">height: 400px;</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">overflow: hidden;</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">top: 50%;</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">left: 60%;</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">transform: translate(-50%, -50%);</span></p>
+<p class="p2"><span class="s2">}</span></p>
+<p class="p2"><span class="s2">.hide {</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">height: 100%;</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">width: 150px;</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">background: #1B6CB2;</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">position: absolute;</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">z-index: 2;</span></p>
+<p class="p2"><span class="s2">}</span></p>
+<p class="p2"><span class="s2">.hide.left {</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">left: 0;</span></p>
+<p class="p2"><span class="s2">}</span></p>
+<p class="p2"><span class="s2">.hide.right {</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">right: 0;</span></p>
+<p class="p2"><span class="s2">}</span></p>
+<p class="p2"><span class="s2">.hide.bottom {</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">bottom: 0;</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">width: 100%;</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">height: 50%;</span></p>
+<p class="p2"><span class="s2">}</span></p>
+<p class="p2"><span class="s2">.circle {</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">position: absolute;</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">height: 75px;</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">width: 150px;</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">border: 3px solid white;</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">border-radius: 50%/100% 100% 0 0;</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">border-bottom: none;</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">top: 40%;</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">left: 50%;</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">transform-origin: 0% 50%;</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">transform: translate(-50%, -50%);</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">animation: magic 1.8s ease infinite;</span></p>
+<p class="p2"><span class="s2">}</span></p>
+<p class="p2"><span class="s2">@keyframes magic {</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">0% {</span></p>
+<p class="p2"><span class="s3">    </span><span class="s2">transform: rotate(-170deg) translate(-50%, -50%);</span></p>
+<p class="p3"><span class="s2">  </span><span class="s1">}</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">50% {</span></p>
+<p class="p2"><span class="s3">    </span><span class="s2">transform: rotate(0deg) translate(-50%, -50%);</span></p>
+<p class="p3"><span class="s2">  </span><span class="s1">}</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">100% {</span></p>
+<p class="p2"><span class="s3">    </span><span class="s2">transform: rotate(180deg) translate(-50%, -50%);</span></p>
+<p class="p3"><span class="s2">  </span><span class="s1">}</span></p>
+<p class="p2"><span class="s2">}</span></p>
+<p class="p2"><span class="s2">.circle-container {</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">position: absolute;</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">height: 75px;</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">width: 150px;</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">top: 40%;</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">left: 50%;</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">transform-origin: 0% 50%;</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">transform: translate(-50%, -50%);</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">animation: power 1.8s ease-out infinite;</span></p>
+<p class="p2"><span class="s2">}</span></p>
+<p class="p2"><span class="s2">@keyframes power {</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">0% {</span></p>
+<p class="p2"><span class="s3">    </span><span class="s2">margin-left: 20px;</span></p>
+<p class="p3"><span class="s2">  </span><span class="s1">}</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">50% {</span></p>
+<p class="p2"><span class="s3">    </span><span class="s2">margin-left: -55px;</span></p>
+<p class="p3"><span class="s2">  </span><span class="s1">}</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">99.9% {</span></p>
+<p class="p2"><span class="s3">    </span><span class="s2">margin-left: -130px;</span></p>
+<p class="p3"><span class="s2">  </span><span class="s1">}</span></p>
+<p class="p2"><span class="s3">  </span><span class="s2">100% {</span></p>
+<p class="p2"><span class="s3">    </span><span class="s2">margin-left: 20px;</span></p>
+<p class="p3"><span class="s2">  </span><span class="s1">}</span></p>
+<p class="p2"><span class="s2">}</span></p>
+<p class="p1"><span class="s3">  </span><span class="s1">&lt;/</span><span class="s2">style</span><span class="s1">&gt;</span></p>
 </body>
 </html>
